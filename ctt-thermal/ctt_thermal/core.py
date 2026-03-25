@@ -4,6 +4,8 @@ Copyright (c) 2026 Americo Simoes. All Rights Reserved.
 """
 
 import numpy as np
+import sys
+sys.path.insert(0, '/home/americosimoes/CTT-Engineering-Suite/ctt-core')
 from ctt_core import TemporalSystem, ALPHA
 
 class ThermalAnalysis:

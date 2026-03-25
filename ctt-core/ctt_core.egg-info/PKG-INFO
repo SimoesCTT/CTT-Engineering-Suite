@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ctt-core
+Version: 1.0.0
+Summary: CTT Temporal Integration Engine
+Author: Americo Simoes
+Author-email: amexsimoes@gmail.com
+License: Proprietary
+Requires-Dist: numpy>=1.21.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
