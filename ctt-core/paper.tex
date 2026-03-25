@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\begin{document}
+\title{CTT Temporal Integration Engine}
+\author{Americo Simoes}
+\maketitle
+
+\section{Theory}
+The CTT core provides guaranteed stable temporal evolution for any dynamical system:
+\[
+\frac{dy}{dt} = f(y), \quad y(d+1) = y(d) e^{-\alpha} + \text{integration step}
+\]
+with \(\alpha = 0.0302011\).
+
+\section{Applications}
+This core applies to:
+\begin{itemize}
+    \item Structural mechanics (FEA)
+    \item Heat transfer
+    \item Electromagnetics
+    \item Acoustics
+    \item Control systems
+    \item Optimisation
+    \item Financial modelling
+    \item Quantum mechanics
+    \item Chemical kinetics
+    \item Biological systems
+\end{itemize}
+
+\end{document}
